@@ -1,14 +1,26 @@
 @media screen and (max-width:870px) {
     main .about .inner {
         flex-direction: column;
+        gap: 1vw;
+    }
+
+    main .about .inner .facebox {
+        height: 350px;
+    }
+
+    main .about .inner .facebox2 {
+        width: 250px;
+        height: 250px;
+        margin: 0 auto;
     }
 
     main .about .inner .skill {
         width: 80%;
-        height: 300px;
+        height: 250px;
+        font-size: 0.9rem;
     }
     .about .inner .skill .tab-item .menu {
-        height: 260px;
+        height: 200px;
     }
     .playlist .play {
         justify-content: space-evenly;
@@ -61,9 +73,6 @@
         background-color: inherit;
     }
 
-    .section .project .phone .mid .list {
-        
-    }
 
 
 

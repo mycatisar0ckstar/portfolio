@@ -6,6 +6,8 @@ $(function(){
         navigationTooltips: ['홈', 'ABOUT', 'WORK1', 'WORK2',],
         // anchors:['page1','page2','page3','page4']
 
+        responsiveWidth: 1000,
+
     })
 
 //about에서 칸 눌러 이동하기

@@ -1,0 +1,82 @@
+@media screen and (max-width:870px) {
+    main .about .inner {
+        flex-direction: column;
+    }
+
+    main .about .inner .skill {
+        width: 80%;
+        height: 300px;
+    }
+    .about .inner .skill .tab-item .menu {
+        height: 260px;
+    }
+    .playlist .play {
+        justify-content: space-evenly;
+        top: 22%;
+        left: 0;
+    }
+
+    .playlist .play .plright {
+        width: 80%;
+    }
+
+    .playlist .play .plright .name {
+        padding: 4% 0;
+        height: 83px;
+    }
+
+    .playlist .play .plright .bar {
+        width: 96%;
+    }
+    .playlist .play .plright .icon {
+        width: 93%;
+    }
+    
+    .playlist .play img {
+        top: -400px;
+        left: 50%;
+        transform:translate(-50%, 0) rotate(0deg)  ;
+    }
+
+
+    .playlist .play img.on {
+        transform:translate(-50%,0) rotate(360deg) ;
+    }
+
+    .playlist .play .circle {
+        left: 47%;
+        top: -95%;
+    }
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+    .section .project .phone .top, .section .project .phone .under, .section .project .phone .mid .dog {
+        display: none;
+    }
+
+    .section .project .phone {
+        background-color: inherit;
+    }
+
+    .section .project .phone .mid .list {
+        
+    }
+
+
+
+
+    .accodi {
+        display: none;
+    }
+
+    .res1 {
+        display: block;
+    }
+
+
+
+
+}

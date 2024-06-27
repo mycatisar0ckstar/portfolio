@@ -467,7 +467,11 @@ main .about .inner .skill {
 }
 
 .section .project .phone .mid .list h3 {
-    padding-left: 40%;
+    padding-left: 10%;
+}
+
+.section .project .phone .mid .list h3 {
+    width: 100%;
 }
 
 .section .project .phone .mid .list div {

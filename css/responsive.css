@@ -24,7 +24,7 @@
     }
     .playlist .play {
         justify-content: space-evenly;
-        top: 22%;
+        top: 200px;
         left: 0;
     }
 
@@ -45,7 +45,7 @@
     }
     
     .playlist .play img {
-        top: -400px;
+        top: -380px;
         left: 50%;
         transform:translate(-50%, 0) rotate(0deg)  ;
     }
@@ -57,7 +57,7 @@
 
     .playlist .play .circle {
         left: 47%;
-        top: -95%;
+        top: -200px;
     }
 
 }
@@ -117,12 +117,13 @@
 
 @media screen and (max-width:695px) {
     .playlist .play {
-        width: 418px;
-        height: 175px;
+        width: 350px;
+        height: 170px;
+        top: 150px;
     }
 
     .playlist .play .plright {
-        width: 70%;
+        width: 80%;
     }
 
     .playlist .play .plright .name {
@@ -131,7 +132,8 @@
     }
 
     .playlist .play img {
-        top: -385px;
+        width: 300px;
+        top: -320px;
     }
 
 

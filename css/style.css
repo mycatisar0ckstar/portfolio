@@ -548,7 +548,23 @@ main .about .inner .skill {
     height: 250px;
     transition: all .5s;
     border-radius: 0 0 30px 30px;
-   
+    
+}
+
+.pro {
+    position: relative;
+}
+
+.res1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #000;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    display: none;
 }
 
 .gallery li:hover .move {
@@ -556,8 +572,8 @@ main .about .inner .skill {
 }
 
 .swiper {
-    width: 500px;
-    height: 80vh;
+    width: 300px;
+    height: 70vh;
   }
 
 .swiper-slide {
@@ -602,28 +618,16 @@ main .about .inner .skill {
     display: block;
     }
 
-.res1 {
-    position: relative;
-    height: 100%;
-}
-
-.res1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 14px;
-    color: #000;
-    position: absolute;
-    top: 10%;
-    left: 20%;
-    display: none;
-}
 
 .accodi .video{
     width: 90%;
     position: absolute;
     top: 50%;
     transform: translate(0,-50%);
+}
+
+.accodi .more {
+    margin-top: 20px;
 }
 
 .accodi .video video {
@@ -640,4 +644,19 @@ main .about .inner .skill {
 .accodi .vlog video {
     width: 100%;
 }
+
+.res1 .video video {
+    width: 90vw;
+    padding-top: 80px;
+}
+.res1 .vlog video {
+    width: 90vw;
+    padding-top: 80px;
+}
+
+.res1 .videx {
+    margin-top: 50px;
+}
+
+
 

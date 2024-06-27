@@ -1,4 +1,21 @@
 $(function(){
+    // function chk() {
+    //     if ($(window).width() <= 1000) {
+    //         $('.phone .mid .list div').click(function(){
+    //             $('.phone .mid .list div').removeClass('on')
+    //             $(this).addClass('on')
+        
+    //             $('.res1 > *').hide()
+    //             // $('.res1').hide()
+    //             let idx = $(this).index()
+        
+    //             $('.res1 > *').eq(idx).show()
+    //             // $('.res1').eq(idx).show()
+    //         })
+    //     }
+    // }
+
+
     $('.minye').fullpage({
         navigation: true,
         // navigation: 페이지 옆에 점생기게 하는거
@@ -92,9 +109,11 @@ $(function(){
         $(this).addClass('on')
 
         $('.accodi > *').hide()
+        $('.res1 >*').hide()
         let idx = $(this).index()
 
         $('.accodi > *').eq(idx).show()
+        $('.res1 > *').eq(idx).show()
     })
 
     $('.phone .mid .list .moving').eq(0).trigger('click')

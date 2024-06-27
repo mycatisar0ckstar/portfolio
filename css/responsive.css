@@ -73,8 +73,30 @@
         background-color: inherit;
     }
 
+    .section .project .phone .mid .list {
+        display: flex;
+        justify-content: center;
+    }
 
+    .section .project .phone .mid .list a {
+        white-space: nowrap;
+    }
 
+    .section .project .phone .mid .list h3 {
+        padding-left: 0;
+        padding-top: 100px;
+        margin: 0 auto;
+    }
+
+    .section .project .phone .mid .list div {
+        margin: 0;
+        background-position: center;
+    }
+
+    .section .project .phone .mid .list div.on {
+        margin: 0;
+        background-position: center;
+    }
 
 
     .accodi {
@@ -83,9 +105,35 @@
 
     .res1 {
         display: block;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%,0);
     }
 
 
 
 
 }
+
+@media screen and (max-width:695px) {
+    .playlist .play {
+        width: 418px;
+        height: 175px;
+    }
+
+    .playlist .play .plright {
+        width: 70%;
+    }
+
+    .playlist .play .plright .name {
+        height: 79px;
+        font-size: 0.8rem;
+    }
+
+    .playlist .play img {
+        top: -385px;
+    }
+
+
+}
+
